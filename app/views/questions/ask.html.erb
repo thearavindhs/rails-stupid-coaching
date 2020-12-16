@@ -1,4 +1,15 @@
-<form action="/answer" method="get">
-  <input type="text" name="question">
+<h2>Stupid Coaching</h2>
+
+<!-- <form class="form-inline" action="/answer" method="get">
+  <input class="form-control"  type="text" name="question">
   <input type="submit" value="Ask!">
+</form> -->
+
+<form action="/answer" method="get">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Ask your coach anything</label>
+    <input type="text" class="form-control" name="question" id="examplequestions" aria-describedby="questions" placeholder="Enter your question">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your questions with anyone else.</small>
+  </div>
+  <button type="submit" class="btn btn-primary" value="Ask!">Submit</button>
 </form>
